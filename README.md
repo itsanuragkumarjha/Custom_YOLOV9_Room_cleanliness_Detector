@@ -20,10 +20,15 @@ The Room Cleanliness Detector project utilizes a custom-trained YOLOv9 model to 
 
 ![Demo](Demo3.gif)
 
+## Comparison Results:
+<p align="center">
+<img src="custom_yolov9_room_cleanliness_model_comparison.jpg" />
+</p>
+
 ## 🧠 How the project works:
 
 <p align="center">
-<img src="app.smartdraw.com_editor.aspx_templateId=4f696a0d-62c3-4c7e-8e58-0c173c7d0e30&flags=128.png" />
+<img src="flowchart.png" />
 </p>
 
 ## 🖼 Dataset
@@ -45,6 +50,7 @@ The dataset for training the YOLOv9 model was sourced from Roboflow. Here's how 
 ![Demo](Demo4.gif)
 
 ## 💡 Model Training
+- 📒 Collab notebook has been uploaded also for educational purposes
 Once you have your dataset, you can train the YOLOv9 model. Here is an example of how to train the model using the YOLO library:
 ```python
 from ultralytics import YOLO
