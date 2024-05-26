@@ -3,7 +3,8 @@
 <p align="center">
 <img src="custom.jpg" />
 </p>
-- This project leverages a custom-trained YOLOv9 model to detect objects related to room cleanliness. Built with Gradio, it provides an interactive web interface where users can upload images and adjust detection parameters. The app returns images with annotated bounding boxes around detected objects, aiding in room organization tasks.
+
+## This project leverages a custom-trained YOLOv9 model to detect objects related to room cleanliness. Built with Gradio, it provides an interactive web interface where users can upload images and adjust detection parameters. The app returns images with annotated bounding boxes around detected objects, aiding in room organization tasks.
 
 ## Overview
 The Room Cleanliness Detector project utilizes a custom-trained YOLOv9 model to identify objects that may contribute to clutter in a room. The project features an interactive web interface built with Gradio, allowing users to upload images and visualize detection results in real-time. By highlighting objects such as clothes and trash, this tool aids in maintaining an organized and tidy living space. The model is trained on a dataset sourced and annotated using Roboflow, ensuring accurate and efficient detection.
